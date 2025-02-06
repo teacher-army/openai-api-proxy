@@ -6,6 +6,7 @@ const OPEN_AI_SERVER = `https://api.openai.com`;
 const app = express();
 
 app.use('/', async (req, res) => {
+  console.log(11111111)
   const url = `${OPEN_AI_SERVER}${req.url}`;
   const options = {
     method: req.method,
