@@ -2,10 +2,10 @@
   "name": "openai-api-proxy",
   "version": "0.1.0",
   "description": "OpenAI api proxy server. Deploy it in safe place and change your local openai server to it",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node api/index.js"
   },
   "repository": {
     "type": "git",
