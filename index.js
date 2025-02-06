@@ -29,3 +29,5 @@ app.use('/', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on ${PORT}`);
 });
+
+module.exports = app;
